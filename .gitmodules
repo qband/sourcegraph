@@ -1,0 +1,3 @@
+[submodule "src/src.sourcegraph.com/sourcegraph"]
+	path = src/src.sourcegraph.com/sourcegraph
+	url = https://src.sourcegraph.com/sourcegraph

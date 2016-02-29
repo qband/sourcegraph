@@ -1,0 +1,10 @@
+dep=`gb build 2>&1 | grep -oP "(?<=import )(\".*)\""`
+while [ ! -z $dep ]
+do
+  echo $dep \
+    | sed 's~"~~g' \
+    | xargs echo "gb vendor fetch" \
+    | tee -a init.sh \
+    | xargs -I{} sh -c "{}"
+  dep=`gb build 2>&1 | grep -oP "(?<=import )(\".*)\""`
+done
