@@ -1,4 +1,4 @@
-[submodule "src/src.sourcegraph.com/sourcegraph"]
-	path = src/src.sourcegraph.com/sourcegraph
-	url = https://src.sourcegraph.com/sourcegraph
+[submodule "src/sourcegraph.com/sourcegraph/sourcegraph"]
+	path = src/sourcegraph.com/sourcegraph/sourcegraph
+	url = https://sourcegraph.com/sourcegraph/sourcegraph
 	ignore = dirty

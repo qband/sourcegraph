@@ -4,4 +4,4 @@ refactor sourcegraph project structure as gb project
 
 ## guide
 
-just run command `./build.sh`
+just run command `make binary` to build artifact
